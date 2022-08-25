@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Restaurant Search</string>
     <string name="search_hint">Search Restaurant, Cuisines.....</string>
+    <string name="content_desc_menu_item_image">menu_item_image</string>
+    <string name="content_desc_restaurant_image">restaurant image</string>
+    <string name="result_by_menu_items">Result by Menu Items</string>
+    <string name="result_by_cuisines">Result by Cuisines</string>
+    <string name="result_by_restaurant">Result by Restaurant</string>
+    <string name="search_by_menu_item_cuisine_or_restaurant">Search by Menu Item, Cuisine or Restaurant</string>
+    <string name="content_desc_location_icon">location icon</string>
 </resources>
