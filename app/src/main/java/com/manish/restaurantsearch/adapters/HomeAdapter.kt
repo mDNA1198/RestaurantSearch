@@ -1,6 +1,5 @@
 package com.manish.restaurantsearch.adapters
 
-import android.util.Log
 import com.manish.restaurantsearch.databinding.RowForSearchByMenuItemBinding
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -12,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.manish.restaurantsearch.R
 import com.manish.restaurantsearch.data.models.search_result.MenuItemSearchResult
 
-class MenuItemSearchAdapter :
-    ListAdapter<MenuItemSearchResult, MenuItemSearchAdapter.MenuSearchViewHolder>(
-        MenuItemSearchDiffCallback()
+class HomeAdapter :
+    ListAdapter<MenuItemSearchResult, HomeAdapter.HomeViewHolder>(
+        HomeAdapterDiffCallback()
     ) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuSearchViewHolder {
-        return MenuSearchViewHolder(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
+        return HomeViewHolder(
             DataBindingUtil.inflate(
                 LayoutInflater.from(parent.context),
                 R.layout.row_for_search_by_menu_item,
@@ -28,34 +27,45 @@ class MenuItemSearchAdapter :
         )
     }
 
-    override fun onBindViewHolder(holder: MenuSearchViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: HomeViewHolder, position: Int) {
         holder.bind(getItem(position))
     }
 
-    class MenuSearchViewHolder(private val binding: RowForSearchByMenuItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    class HomeViewHolder(private val binding: RowForSearchByMenuItemBinding) : RecyclerView.ViewHolder(binding.root) {
+        init {
+            /*binding.setClickListener { view ->
+                binding.viewModel?.plantId?.let { plantId ->
+                    navigateToPlant(plantId, view)
+                }
+            }*/
+        }
 
-        fun bind(menuItem: MenuItemSearchResult) {
-            Log.e("bind", "bindCalled $menuItem")
+        /*private fun navigateToPlant(plantId: String, view: View) {
+            val direction = HomeViewPagerFragmentDirections
+                .actionViewPagerFragmentToPlantDetailFragment(plantId)
+            view.findNavController().navigate(direction)
+        }*/
+
+        fun bind(plantings: MenuItemSearchResult) {
             val adapter = SingleMenuItemAdapter()
-            adapter.submitList(menuItem.menuItemList)
+            adapter.submitList(plantings.menuItemList)
             with(binding) {
-                data = menuItem
+                data = plantings
                 executePendingBindings()
                 menuItemsRV.layoutManager = LinearLayoutManager(binding.root.context, LinearLayoutManager.VERTICAL, false)
                 menuItemsRV.adapter = adapter
-                adapter.submitList(menuItem.menuItemList)
             }
         }
     }
 }
 
-private class MenuItemSearchDiffCallback : DiffUtil.ItemCallback<MenuItemSearchResult>() {
+private class HomeAdapterDiffCallback : DiffUtil.ItemCallback<MenuItemSearchResult>() {
 
     override fun areItemsTheSame(
         oldItem: MenuItemSearchResult,
         newItem: MenuItemSearchResult
     ): Boolean {
-        return oldItem.restaurantId == newItem.restaurantId
+        return oldItem.restaurantName == newItem.restaurantName
     }
 
     override fun areContentsTheSame(

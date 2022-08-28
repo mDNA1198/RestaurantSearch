@@ -1,0 +1,307 @@
+{
+    "menus": [
+        {
+            "restaurantId": 1,
+            "categories": [
+                {
+                    "id": "26001",
+                    "name": "Noodles",
+                    "menu-items": [
+                        {
+                            "id": "36001",
+                            "name": "Curly Noodles",
+                            "description": "Tender, Spicy and Juicy. Curly Noodles",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/b/asian-style-curly-noodles-wok-chicken-mushrooms-vegetables-horizontal-curly-noodles-wok-chicken-mushrooms-vegetables-187238350.jpg"
+                        },
+                        {
+                            "id": "36002",
+                            "name": "Plain Noodles",
+                            "description": "Plain Noodles, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://www.vietworldkitchen.com/wp-content/uploads/2020/06/panfried-noodle-done-square.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "26002",
+                    "name": "Rice",
+                    "menu-items": [
+                        {
+                            "id": "36003",
+                            "name": "Fried Rice",
+                            "description": "Quarter Fried Rice Marinated with PERi-PERi Sauce and Grilled",
+                            "price": "385.00",
+                            "images": "https://www.errenskitchen.com/wp-content/uploads/2019/03/Fried-Rice-square.jpg"
+                        },
+                        {
+                            "id": "36004",
+                            "name": "Ramen Rice",
+                            "description": "Ramen Rice Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://garlicdelight.com/wp-content/uploads/fancy-soup-instant-ramen-12.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "restaurantId": 2,
+            "categories": [
+                {
+                    "id": "26003",
+                    "name": "Pizzas",
+                    "menu-items": [
+                        {
+                            "id": "36005",
+                            "name": "Spicy Veg Pizza",
+                            "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/b/woman-holding-homemade-vegetarian-pizza-female-hands-holding-hot-pizza-cheese-tomatoes-cutting-board-tasty-junk-food-220492532.jpg"
+                        },
+                        {
+                            "id": "36006",
+                            "name": "Corn Cheese Pizza",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://www.pizzaparadise.in/wp-content/uploads/2019/10/cheesy-corn.jpg"
+                        },
+                        {
+                            "id": "36007",
+                            "name": "Maggie Pizza",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://thefoodxp.com/wp-content/uploads/2020/05/Maggi-Pizza-Recipe-without-Egg.jpg"
+                        },
+                        {
+                            "id": "36008",
+                            "name": "Pineapple Pizza",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://st2.depositphotos.com/1757359/7586/i/600/depositphotos_75863385-stock-photo-isolated-homemade-pizza.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "26004",
+                    "name": "American",
+                    "menu-items": [
+                        {
+                            "id": "36009",
+                            "name": "Tater tots",
+                            "description": "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
+                            "price": "385.00",
+                            "images": "https://thumbs.dreamstime.com/b/tater-tot-casserole-plate-19097417.jpg"
+                        },
+                        {
+                            "id": "36010",
+                            "name": "Cobb salad",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://www.yellowblissroad.com/wp-content/uploads/2019/03/Classic-Cobb-Salad-SQUARE.jpg"
+                        },
+                        {
+                            "id": "36011",
+                            "name": "Pot roast",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/11141758/81_AsianPotRoast_square1.jpg"
+                        },
+                        {
+                            "id": "36012",
+                            "name": "Twinkies",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://pyxis.nymag.com/v1/imgs/9de/f9d/83628873b7b0f5b06b71a0a1039d2a0c16-16-hostess.rsquare.w700.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "restaurantId": 3,
+            "categories": [
+                {
+                    "id": "26005",
+                    "name": "South Indian",
+                    "menu-items": [
+                        {
+                            "id": "36013",
+                            "name": "Idli Sambhar",
+                            "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/z/idli-vada-south-indian-food-sambar-coconut-chutney-breakfast-105558163.jpg"
+                        },
+                        {
+                            "id": "36014",
+                            "name": "Masala Dosa",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/pbjzk9vofokheq4terwv"
+                        },
+                        {
+                            "id": "36015",
+                            "name": "Hyderabadi Biryani",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://mediavine-res.cloudinary.com/image/upload/s--lT5oCO99--/ar_1:1,c_fill,f_auto,fl_lossy,q_auto/v1597990096/dah7nmrwbfagsawphxho.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "26006",
+                    "name": "North Indian",
+                    "menu-items": [
+                        {
+                            "id": "36016",
+                            "name": "Chole Bhature",
+                            "description": "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
+                            "price": "385.00",
+                            "images": "https://thumbs.dreamstime.com/z/chole-bhature-indian-street-food-indian-street-food-snack-chole-bhature-chickpea-curry-served-fried-flatbread-lemons-196402668.jpg"
+                        },
+                        {
+                            "id": "36017",
+                            "name": "Malai ki Kheer",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://img-global.cpcdn.com/recipes/1e07935334e964ef/680x482cq70/%E0%A4%AE%E0%A4%B2%E0%A4%88-%E0%A4%96%E0%A4%B0-malai-kheer-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+                        },
+                        {
+                            "id": "36018",
+                            "name": "Chicken Dum Biryani",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/cw9hdihkl4cr6epqrddd"
+                        },
+                        {
+                            "id": "36019",
+                            "name": "Aloo Samosa",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18151126/fc25sh062-02-thumb1x1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "restaurantId": 4,
+            "categories": [
+                {
+                    "id": "26007",
+                    "name": "Japanese",
+                    "menu-items": [
+                        {
+                            "id": "36020",
+                            "name": "Udon",
+                            "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+                            "price": "250.00",
+                            "images": "https://previews.123rf.com/images/larryratt/larryratt1708/larryratt170800095/83387881-cooking-stir-fry-udon-noodles-green-beans-sliced-paprika-boiled-eggs-soy-sauce-with-sesame-seeds-in-.jpg"
+                        },
+                        {
+                            "id": "36021",
+                            "name": "Tofu",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://www.vnutritionandwellness.com/wp-content/uploads/2021/06/how-to-make-tofu-square.jpg"
+                        },
+                        {
+                            "id": "36022",
+                            "name": "Rice ball",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/b/korean-triangle-kimbap-samgak-made-nori-rice-tuna-fish-similar-to-japanese-rice-ball-onigiri-square-korean-triangle-104064793.jpg"
+                        },
+                        {
+                            "id": "36023",
+                            "name": "Sushi",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/food/2015/03/19/9f3a6c263f7a41d89141be28dd131c1d/sushi-squares.jpg?width=768&height=639&mode=crop&quality=75&anchor=middlecenter"
+                        },
+                        {
+                            "id": "36024",
+                            "name": "Ramen",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://www.kitchensanctuary.com/wp-content/uploads/2020/12/Quick-Chicken-Ramen-square-FS-22.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "26008",
+                    "name": "Chinense",
+                    "menu-items": [
+                        {
+                            "id": "36025",
+                            "name": "Peking Roasted Duck",
+                            "description": "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
+                            "price": "385.00",
+                            "images": "https://img.freepik.com/free-photo/top-view-traditional-asian-food-peking-duck-with-cucumbers-sauce-plate_141793-8524.jpg"
+                        },
+                        {
+                            "id": "36026",
+                            "name": "Dumplings",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F4cb995cab924ef261654a7519c31be907462fa24"
+                        },
+                        {
+                            "id": "36027",
+                            "name": "Chow Mein",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://charlotteslivelykitchen.com/wp-content/uploads/2015/01/Chicken-Chow-Mein-Square-Image.jpg"
+                        },
+                        {
+                            "id": "36028",
+                            "name": "Hot Pot",
+                            "description": "Half Chicken Marinated with PERi-PERiSauce and Grilled",
+                            "price": "685.00",
+                            "images": "https://image.shutterstock.com/shutterstock/photos/1048892807/display_1500/stock-photo-chinese-hot-pot-famous-square-iron-hotpot-with-different-kinds-of-soup-hot-chili-tomato-1048892807.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "restaurantId": 5,
+            "categories": [
+                {
+                    "id": "26009",
+                    "name": "Punjabi",
+                    "menu-items": [
+                        {
+                            "id": "36029",
+                            "name": "Lassi",
+                            "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/b/yogurt-ayran-lassi-fresh-plain-homemade-yougurt-youghurt-kefir-glass-herbs-over-gray-background-copy-space-probiotic-116473674.jpg"
+                        },
+                        {
+                            "id": "36030",
+                            "name": "Parantha",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "http://zuranazrecipe.com/wp-content/uploads/2016/12/IMG_1773-copy.jpg"
+                        },
+                        {
+                            "id": "36031",
+                            "name": "Dal Makhani",
+                            "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+                            "price": "250.00",
+                            "images": "https://thumbs.dreamstime.com/b/dal-makhani-dark-background-traditional-indian-cuisine-puree-dish-urad-beans-red-butter-spices-cream-square-crop-156960239.jpg"
+                        },
+                        {
+                            "id": "36032",
+                            "name": "Paneer Tikka",
+                            "description": "Also called 'chicken of the vegetarians', the paneer tikka has a special place in the food of Punjab",
+                            "price": "250.00",
+                            "images": "https://farm8.staticflickr.com/7695/17855905992_9f0372165e_o.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

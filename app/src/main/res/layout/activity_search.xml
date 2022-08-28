@@ -19,6 +19,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/searchET"
             android:textSize="@dimen/_12ssp"
             android:drawableStart="@drawable/ic_baseline_search_24"
             android:drawablePadding="@dimen/_5sdp"
@@ -26,9 +27,10 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -64,17 +66,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/menuSearchResultTitle"
-                tools:listitem="@layout/row_for_search_by_menu_item"
-                />
-
-            <com.google.android.material.divider.MaterialDivider
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/divider2"
-                app:layout_constraintTop_toBottomOf="@+id/menuItemsSearchResultRV"
-                android:layout_marginHorizontal="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                app:dividerColor="@color/purple_20_light"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="vertical"
                 />
 
             <TextView
@@ -83,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/result_by_cuisines"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider2"
+                app:layout_constraintTop_toBottomOf="@+id/menuItemsSearchResultRV"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:textColor="@color/purple_700"
@@ -108,16 +101,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cuisineSearchResultTitle"
                 tools:listitem="@layout/row_for_search_by_cuisine"
-                />
-
-            <com.google.android.material.divider.MaterialDivider
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/cuisinesSearchResultRV"
-                android:layout_marginHorizontal="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:id="@+id/divider4"
-                app:dividerColor="@color/purple_20_light"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="vertical"
                 />
 
             <TextView
@@ -126,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/result_by_restaurant"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider4"
+                app:layout_constraintTop_toBottomOf="@+id/cuisinesSearchResultRV"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:textColor="@color/purple_700"
@@ -151,20 +136,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/restaurantSearchResultTitle"
                 tools:listitem="@layout/row_for_search_by_restaurant"
-                />
-
-            <com.google.android.material.divider.MaterialDivider
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/restaurantSearchResultRV"
-                android:layout_marginHorizontal="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:id="@+id/divider6"
-                app:dividerColor="@color/purple_20_light"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="vertical"
                 />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
